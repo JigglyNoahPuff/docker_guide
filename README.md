@@ -19,7 +19,7 @@ Docker **Containers** are self-contained packages of software.  They are created
 
 ### Why Docker?
 > Docker is to containers as GitHub is to repositories
-> 
+
 #### Short and Sweet Explanation
 Docker Containers seperate the specialized programs from the overall operating system.  This seperation allows easy packaging and sending of new code to computers regardless of whether it is a Mac, PC, or even Linux.
 
@@ -31,3 +31,18 @@ Containers do this by enabling developers to isolate code into a single containe
 Docker brings several new things to the table that the earlier technologies didn't. The first is it's made containers easier and safer to deploy and use than previous approaches. In addition, because Docker's partnering with the other container powers, including Canonical, Google, Red Hat, and Parallels, on its key open-source component libcontainer, it's brought much-needed standardization to containers.
 
 Since then Docker donated "its software container format and its runtime, as well as the associated specifications," to The Linux Foundation's Open Container Project. Specifically, "Docker has taken the entire contents of the libcontainer project, including nsinit, and all modifications needed to make it run independently of Docker, and donated it to this effort." [zdnet.com](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+
+### Docker for data science?
+> Docker is to containers as this author is to cheesy metaphors
+
+#### Short and Sweet Explanation
+Docker containers allow collaborators to share code without worrying about the different devices each person is using.
+
+#### Longer and Better Explanation
+Using docker containers means you don't have to deal with "works on my machine" problems. Generally, the main advantage Docker provides is standardization. This means you can define the parameters of your container once, and run it wherever Docker is installed. This in turn provides a few major advantages:
+
+1. __Reproducibility:__ Everyone has the same OS, the same versions of tools etc. If it works on your machine, it works on everyone's machine.
+2. __Portability:__ This means that moving from local development to a super-computing cluster is easy. Also, if you're working on open source data science projects you can provide collaborators with an easy way to bypass setup hassle.
+3. __Docker Hub:__ You can take advantage of the community to find pre-built images [search here](https://hub.docker.com/search?q=data%20science&type=image)
+
+Another huge advantage – learning to use Docker will make you a better engineer, or turn you into a data scientist with super powers. Many systems rely on Docker, and it will help you turn your ML projects into applications and deploy models into production. [dagshub.com](https://dagshub.com/blog/setting-up-data-science-workspace-with-docker/)
